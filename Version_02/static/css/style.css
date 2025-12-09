@@ -1,0 +1,34 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.main-container {
+    max-width: 900px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.task-completed .task-title {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.15);
+    border-color: #dee2e6;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-primary:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
